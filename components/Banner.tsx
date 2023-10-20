@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const OverlayBanner = () => {
   return (
-    <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-70 text-textGreen text-center flex justify-center items-center z-50">
+    <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 text-textGreen text-center flex justify-center items-center z-50">
       <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">
         🚧🛠️ Website Undergoing Reconstruction 👷🏗️
       </h1>
