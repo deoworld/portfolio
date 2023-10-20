@@ -151,7 +151,7 @@ const Navbar = () => {
               className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#112240] flex flex-col items-center px-4 py-10 relative"
             >
               <MdOutlineClose
-                onClick={(e) => setShowMenu(false)}
+                onClick={(e: any) => setShowMenu(false)}
                 className="text-3xl text-textGreen cursor-pointer hover:text-red-500 absolute top-4 right-4"
               />
               <div className="flex flex-col items-center text-base gap-7">
