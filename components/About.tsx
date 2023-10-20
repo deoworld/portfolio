@@ -60,6 +60,12 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
+              React Native
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
               Node.js
             </li>
             <li className="flex items-center gap-2">
@@ -84,7 +90,13 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Tailwindcss
+              Tailwind CSS
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Figma
             </li>
           </ul>
         </div>

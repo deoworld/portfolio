@@ -1,5 +1,15 @@
 import { motion } from "framer-motion";
 
+const OverlayBanner = () => {
+  return (
+    <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-70 text-white text-center flex justify-center items-center z-50">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">
+        Awesome Website Undergoing Reconstruction
+      </h1>
+    </div>
+  );
+};
+
 const Banner = () => {
   return (
     <section
@@ -12,7 +22,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.6 }}
         className="text-lg font-titleFont tracking-wide text-textGreen"
       >
-        Hi, my name is
+        Hi, I am
       </motion.h3>
       <motion.h1
         initial={{ opacity: 0 }}
@@ -22,7 +32,7 @@ const Banner = () => {
       >
         Daniel Oriazowan.{" "}
         <span className="text-textDark mt-2 lgl:mt-4">
-          I build things for the web.
+          I build awesome things for the web.
         </span>
       </motion.h1>
       <motion.p
@@ -31,10 +41,27 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am web developer with 4+ years of experience in React. I have a strong
-        foundation in front-end & back-end development and am skilled in
-        creating user-friendly and responsive web applications using React and
-        its ecosystem.{" "}
+        <p>
+          With an illustrious journey spanning two decades, my fervor for web
+          development has been the driving force behind my career. From my early
+          days as a computer instructor to my current standing as a seasoned web
+          developer, I've honed my craft meticulously. My journey commenced in
+          2005, took a hiatus, and resurged with newfound vigor in 2017.
+        </p>
+        <br />
+        <p>
+          Armed with 4+ years of expertise in React, complemented by a decade of
+          immersion in JavaScript, I've cultivated a strong foundation in both
+          front-end and back-end development. My proficiency extends to crafting
+          enchanting web applications, known for their user-friendliness and
+          exceptional responsiveness.
+        </p>
+        <br />
+        <p>
+          In the dynamic realm of React, I orchestrate digital masterpieces that
+          captivate audiences, and I invite you to be part of this compelling
+          web development odyssey.
+        </p>{" "}
         <a href="">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn More
@@ -50,6 +77,7 @@ const Banner = () => {
       >
         Check out my Projects
       </motion.button>
+      <OverlayBanner />
     </section>
   );
 };
