@@ -73,7 +73,7 @@ const Banner = () => {
       >
         Check out my Projects
       </motion.button>
-      <OverlayBanner />
+      {/* <OverlayBanner /> */}
     </section>
   );
 };
